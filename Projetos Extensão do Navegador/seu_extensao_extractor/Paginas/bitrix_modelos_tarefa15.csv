@@ -1,0 +1,65 @@
+﻿Nome;Prazo;Responsável;Criado por;Grupo;Serviço
+;;;;;;
+
+Serviços / Mão na Massa;em 390 minutos;Jonas Benachio;Jonas Benachio;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Mão na Massa;
+Serviços / Metabase / Acerto de Painel;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Metabase / Criação Data_Model;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Metabase / Criação Data_Sets;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Metabase / Criação de Painel;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Metabase / Criação Raw_Data;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Metabase / Erro na Dag;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Metabase / Erro no Painel;em 10 hora;Kauã Carvalho;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Onboarding / Triade de Competencias;em 90 dias;Jonas Benachio;Jonas Benachio;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Treinamento;
+Serviços / Power BI / Acerto de Painel;em 10 hora;Jonas Benachio;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+Serviços / Power BI / Criação de Painel;em 10 hora;Jonas Benachio;Samuel Levy;01.04.00.00. Comercial / Vendas / Sucesso do Cliente;Power BI;
+
+Atualização Radar Lojas;Não;Bruno Lima;Bruno Lima;04.01.00. Logística / Compras;não especificada;
+Montagem e Publicação de Feed consultores diariamente;Não;Bruno Lima;Bruno Lima;04.01.00. Logística / Compras;não especificada;
+
+Feedback - Parceiros Inadimplentes;em 2 dias;Andreia Ramos;Silvia Carvalho;11.03.02. Bonsucesso / Financeiro / Cobrança;não especificada;
+Financeiro / Cobrança - Comprovante de Pagamento de Boleto Via PIX/Transferência;em 1 dia;Andrielle Ferreira;Silvia Carvalho;11.03.02. Bonsucesso / Financeiro / Cobrança;não especificada;
+
+Feedback - Parceiros Inadimplentes;em 2 dias;Ana Paula - Supervisora Campo Grande;Silvia Carvalho;13.03.02. Campo Grande / Financeiro / Cobrança;não especificada;
+Financeiro / Cobrança - Comprovante de Pagamento de Boleto Via PIX/Transferência;em 1 dia;Andrielle Ferreira;Silvia Carvalho;13.03.02. Campo Grande / Financeiro / Cobrança;não especificada;
+
+Feedback - Parceiros Inadimplentes;em 2 dias;Mayra Pena;Silvia Carvalho;14.03.02. Centro / Financeiro / Cobrança;não especificada;
+Financeiro / Cobrança - Comprovante de Pagamento de Boleto e Via PIX/Transferência;em 1 dia;Andrielle Ferreira;Silvia Carvalho;14.03.02. Centro / Financeiro / Cobrança;não especificada;
+
+Feedback - Parceiros Inadimplentes;em 2 dias;Torgana Maia;Silvia Carvalho;15.03.02. Taquara / Financeiro / Cobrança;não especificada;
+Financeiro / Cobrança - Comprovante de Pagamento de Boleto Via PIX/Transferência;em 1 dia;Andrielle Ferreira;Silvia Carvalho;15.03.02. Taquara / Financeiro / Cobrança;não especificada;
+
+Feedback - Parceiros Inadimplentes;em 2 dias;Rosana Silva;Silvia Carvalho;16.03.02. Vilar dos Teles / Financeiro / Cobrança;não especificada;
+Financeiro / Cobrança - Via PIX/Transferência;em 1 dia;Andrielle Ferreira;Silvia Carvalho;16.03.02. Vilar dos Teles / Financeiro / Cobrança;não especificada;
+
+Feedback - Parceiros Inadimplentes;em 2 dias;Maria Tereza Medina;Silvia Carvalho;12.03.02. Cabo Frio / Financeiro / Cobrança;não especificada;
+Financeiro / Cobrança - Comprovante de Pagamento de Boleto Via PIX/Transferência;em 1 dia;Andrielle Ferreira;Silvia Carvalho;12.03.02. Cabo Frio / Financeiro / Cobrança;não especificada;
+
+Estruturação da Reunião Semanal;em 5 dias;Mayra Pena;ROSANGELA ROCHA;99.00.00. Gestão Presente;não especificada;
+
+Serviços / Suporte ao Cliente / Produto Fora do Prazo;em 30 hora;Jonas Benachio;Jonas Benachio;Serviços / projetos;Suporte ao Cliente;
+Serviços / Suporte ao Cliente / Validação de Garantia;em 30 hora;Jonas Benachio;Jonas Benachio;Serviços / projetos;Suporte ao Cliente;
+
+Laboratório / Ocorrência;em 10 hora;Jonas Benachio;Jonas Benachio;Pos venda / Laboratorio;não especificada;
+Serviços / Manutenção de Motor;em 3 dias;Jonas Benachio;Jonas Benachio;Pos venda / Laboratorio;Manutenção de Motor;
+
+Ouvir 5 Ligações do CS - Rotina Comerical;Não;Jonas Benachio;Samuel Levy;Sucesso do Cliente;não especificada;
+Sucesso do Cliente / OnBoarding;Não;Samuel Levy;Samuel Levy;Sucesso do Cliente;não especificada;
+
+Logística / Transporte - Modelo inutilização CT-E;em 30 minutos;Mayra Pena;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Atraso na Entrega;em 1 dia;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Brinde não foi enviado;em 1 dia;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Demora no Recebimento;em 1 dia;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Endereço Errado;em 1 dia;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Material Faltando;em 1 dia;SERGIO HENRIQUE;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Multa;Não;Alessandra Santos;Alessandra Santos;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Ocorrência - Venda Errada;em 1 dia;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Pesquisa combustível;em 30 dias;Alessandra Santos;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - POP - Pesquisa de Multas;Não;Mayra Pena;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Solicitação - autorização frete / Uber;em 1 hora;Luis Carlos Marques Berriel;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Solicitação - Desligamento Motorista;em 1 hora;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Solicitação - Envio de Brinde;em 2 dias;Camila Dias;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Tarefa Diária;em 1 dia;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Tarefa Mensal;em 30 dias;Alessandra Santos;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Logística / Transporte - Tarefa Semanal;em 7 dias;Robson Lima;Mayra Pena;04.03.00. Logística / Transporte;não especificada;
+Premiação motoristas;Não;Willian Pena;Willian Pena;04.03.00. Logística / Transporte;não especificada;
+Procedimento em Caso de Acidente com Veículo;Não;Alessandra Santos;Alessandra Santos;04.03.00. Logística / Transporte;não especificada;

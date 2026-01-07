@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Intelbras Downloader",
+  "version": "1.0",
+  "description": "Baixa arquivos PDF do site da Intelbras.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "storage",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://www.intelbras.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "images/Intelbras-logo-3-1.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.intelbras.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "images/Intelbras-logo-3-1.png"
+  }
+}

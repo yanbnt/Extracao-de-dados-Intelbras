@@ -1,0 +1,59 @@
+﻿Nome;Prazo;Responsável;Criado por;Grupo;Serviço
+;;;;;;
+
+CD/Logística/Uso e consumo / Solicitação de Material;Não;NIVIA RABELLO;NIVIA RABELLO;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / - Solicitação de Compra (venda Fechada);em 14 dias;Fatima Oliveira;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo - ARM Operação ( 2023 );em 30 dias;Mayra Pena;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo - Erro ICMS Desonerado;em 14 dias;Fatima Oliveira;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo - Pesquisa de Entrantes;em 7 dias;Bruno Lima;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Compra (POC);em 14 dias;Fatima Oliveira;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Compra (Projeto);em 14 dias;Fatima Oliveira;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo PDCA Semanal;em 7 dias;Mayra Pena;Mayra Pena;04.01.01. Logística / Compras / Uso e Consumo;não especificada;
+
+CD / Logística / Armazém;em 1 dia;Desligado - Joubert Silva CD;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Checklist abertura CD;Não;Alessandra Santos;Willian Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Gerencia RMA - Financeiro pendente (Make);em 1 dia;Rita A. Lourenço;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Lavagem portões;Não;Willian Pena;Willian Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Logística / Armazém - Solicitação - Transferência 10 / 12...;em 30 minutos;Jonathan Veloso;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Logística / Armazém - Recebimento - Transferência Automática Entrada 10 / 12;em 1 dia;Marcos Nascimento;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Logística / Armazém - Recebimento - Transferência Automática Saída 10 / 12;em 1 dia;Marcos Nascimento;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Logística / Armazém - Transferências Pendentes Entrada;em 1 dia;Pedro Vitor;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Ronda CD;Não;Willian Pena;Willian Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Sobre a Cobli;Não;Mayra Pena;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Sobre Transporte - Controle de Frotas;Não;Mayra Pena;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+Sobre Transporte - Controle Manutenções / Revisões;Não;Mayra Pena;Mayra Pena;10.04.02. CD / Logística / Armazém;não especificada;
+
+Analise de divergência;Não;Willian Pena;VANESSA -DESLIGADA 02/04;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Fechamento Venda Reciclado;em 1 dia;Willian Pena;Larissa Rocha;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Limpeza periodica Caixa d'água;em 30 dias;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Limpeza periodica Caixa d'água;Não;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Limpeza periódica do portão;em 30 dias;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Limpeza periódica do portão;Não;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Limpeza periodica Porta automatica;em 30 dias;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Limpeza periodica Porta automatica;Não;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Manutenção cisterna;Não;SERGIO HENRIQUE;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+Rotina Supervisor CD;Não;Willian Pena;Willian Pena;10.04.04. CD / Logística / Administração Patrimonial;não especificada;
+
+Bonsucesso / Logística / Armazém / Tarefa Mensal;em 30 dias;Andreia Ramos;Mayra Pena;11.04.02. Bonsucesso / Logística / Armazém;não especificada;
+Bonsucesso / Logística / Armazém / Tarefa Diária;em 1 dia;Andreia Ramos;Mayra Pena;11.04.02. Bonsucesso / Logística / Armazém;não especificada;
+Definir ações para resolver o indicador de notas fiscais faturadas fora da meta.;em 4 hora;Andreia Ramos;Luis Carlos Marques Berriel;11.04.02. Bonsucesso / Logística / Armazém;não especificada;
+
+Armazem - Reposição por e-mail;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Armazem - Reposição por Indicadores de Estoque (Ruptura);em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Cabo Frio / Logística / Armazém / Tarefa Diária;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Daily - Operações;Não;Willian Pena;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Aguardando Faturamento;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Devolução Não Confirmada;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Estoque Total Solutions;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Notas com Erro;em 1 dia;Alessandra Santos;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Produtos no estoque 3000;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Separação Balcão;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Separação Entrega;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Transferência Pendente Entrada RMA;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Logística / Administração Patrimonial - Ocorrência - Divergência de Estoque;em 1 hora;Willian Pena;Willian Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Recebimento - Monitoria Armazém - guardar/arrumar/abastecer as prateleiras;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+Recebimento - Monitoria Armazém - Série Transferências Pendentes Entrada;em 1 dia;Veronica Tavares;Mayra Pena;12.04.02. Cabo Frio / Logística / Armazém;não especificada;
+
+Campo Grande / Logística / Compras / Uso e Consumo Tarefa Semanal;em 1 dia;Maria Isabel;Mayra Pena;13.04.01. Campo Grande / Logística / Compras / Uso e Consumo;não especificada;
+
+Armazem - Reposição por Indicadores de Estoque (Ruptura);em 1 dia;Ana Paula - Supervisora Campo Grande;Mayra Pena;13.04.02. Campo Grande / Logística / Armazém;não especificada;

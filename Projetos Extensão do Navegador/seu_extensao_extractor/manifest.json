@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Bitrix24 Extrator CSV",
+  "version": "1.0",
+  "description": "Extrai dados de tabelas do Bitrix24 e salva como arquivo CSV.",
+  
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting" 
+  ],
+  
+  "action": {
+    "default_popup": "popup.html"
+  },
+  
+ "content_scripts": [
+    {
+      "matches": ["*://*.bitrix24.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "host_permissions": [ 
+    "*://*.bitrix24.com/*"
+  ]
+}

@@ -1,0 +1,56 @@
+﻿Nome;Prazo;Responsável;Criado por;Grupo;Serviço
+;;;;;;
+
+Serviços / Telefonia / Configuração de Tronco;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Telefonia / Indisponibilidade Parcial;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Telefonia / Indisponibilidade Total;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Telefonia / Não Loga no Voiqx;em 2 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Telefonia / Solicitação de Ramal Físico;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Telefonia / Solicitação de Ramal Virtual;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Telefonia / Telefone ou Headset com Problema;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Telefonia;
+Serviços / Transferencia / Envio Entre Lojas;em 2 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Transferencia;
+Serviços / Transferencia / Envio Entre Lojas;em 12 hora;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Transferencia;
+Serviços / Transporte / Envio de Produto Para Assistencia;em 2 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;Transporte;
+Serviços / TV Indoor / Informativos;em 1 dia;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;TV Indoor;
+Serviços / TV Indoor / Manutenção;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;TV Indoor;
+Serviços / TV Indoor / Remoção de TV de Informativos;em 12 hora;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;TV Indoor;
+Serviços / TV Indoor / Sistema de TV Indisponível;em 12 hora;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;TV Indoor;
+Serviços / TV Indoor / Solicitar TV Para Informativos;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;TV Indoor;
+Serviços / TV Indoor / Troca de TV de Informativos;em 5 dias;Jonas Benachio;Jonas Benachio;01.04.01.00. Comercial / Sucesso do Cliente / Processos;TV Indoor;
+
+Cadastro de produtos novos;Não;Fatima Oliveira;Camila Dias;01.02.00.00. Comercial / Vendas / Corporativo;não especificada;
+Daily Corporativo - Orçamentos;Não;Samuel Levy;ISRAEL MOREIRA;01.02.00.00. Comercial / Vendas / Corporativo;não especificada;
+teste;Não;ISRAEL MOREIRA;ISRAEL MOREIRA;01.02.00.00. Comercial / Vendas / Corporativo;não especificada;
+
+Check List - Pessoas;Não;ROSANGELA ROCHA;Julio Carvalho;02.00.01. Pessoas / Processos;não especificada;
+Pessoas - Bitrix;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas - Feedback Semanal Estratégico;em 1 dia;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas - Feedback Semanal Tático;em 2 dias;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas - Indicadores mensais de RH;em 2 dias;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / ARM;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / Avaliação de Desempenho ---------;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / DP - Backlog Tático;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / DP - Planejamento Backlog Tático;em 2 dias;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / Financeiro - Reembolso Maio e Junho -2023;em 2 minutos;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / Pesquisa de Clima;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / RH - Ajustes;Não;Julio Carvalho;Raniele Costa;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / RH - Tarefa Semanal;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Pessoas / Visita as Lojas;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+Sprint Review / Feedback Semanal / Unidade - Pessoas;Não;ROSANGELA ROCHA;ROSANGELA ROCHA;02.00.01. Pessoas / Processos;não especificada;
+
+Pessoas / DP - Solicitação - 2via Riocard;em 1 dia;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - 2 via Alelo;em 2 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Empréstimo;em 5 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Exclusão do Plano Odontológico;em 3 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Inclusão do Plano de Saúde;em 3 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Inclusão do Plano Odontológico;em 3 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Revisão da Folha de Pagamento;em 1 dia;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Revisão da Folha de Ponto;em 3 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Revisão de pagamento de Férias;em 1 dia;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Revisão do Credito de Vale Refeição;em 1 dia;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Revisão do Credito de Vale Transporte;em 1 dia;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Solicitação - Solicitação de Contracheques;em 2 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / Dp - Pagamento Mudes 01;em 3 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / Dp - Pagamento Nube;em 3 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - ARM - Operação;em 2 dias;ROSANGELA ROCHA;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;
+Pessoas / DP - Custos Mensal - Folha e Beneficios;em 2 dias;Raniele Costa;ROSANGELA ROCHA;02.01.00. Pessoas / DP;não especificada;

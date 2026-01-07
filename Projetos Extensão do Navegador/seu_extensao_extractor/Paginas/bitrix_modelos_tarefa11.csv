@@ -1,0 +1,67 @@
+﻿Nome;Prazo;Responsável;Criado por;Grupo;Serviço
+;;;;;;
+
+Armazenamento - Arrumação Corredor F2 (Referência - DGCOM);em 1 dia;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Armazenamento - Arrumação Corredor G1 (Aguardando Arrumação);em 10 hora;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Armazenamento - Arrumação Corredor G2 (Aguardando Entrada de Marcadoria);em 10 hora;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Devolução Não Confirmada;em 1 dia;Rosana Silva;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Separação Balcão;em 1 dia;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Separação Entrega;em 1 dia;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Expedição - Monitoria Armazém - Série Transferências Pendentes Saída;em 1 dia;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Monitoria Manutenção;em 7 dias;Luiz Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Recebimento - Monitoria Armazém - guardar/arrumar/abastecer as prateleiras;em 10 hora;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Recebimento - Monitoria Armazém - Série Transferências Pendentes Entrada;em 10 hora;Carlos Alexandre;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Vilar dos Teles / Logística / Armazém;em 30 dias;Rosana Silva;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Vilar dos Teles / Logística / Armazém - Tarefa Diária;em 1 dia;Rosana Silva;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+Vilar dos Teles / Logística / Armazém / -Tarefa Diária Encarregado;em 1 dia;Rosana Silva;Mayra Pena;16.04.02. Vilar dos Teles / Logística / Armazém;não especificada;
+
+CD / Logística / Compras 1 Tarefa Diária;em 1 dia;Fatima Oliveira;Mayra Pena;10.04.01.01. CD / Logística / Compras Intelbras;não especificada;
+CD / Logística / Compras 1 Tarefa Mensal;em 3 dias;Fatima Oliveira;Mayra Pena;10.04.01.01. CD / Logística / Compras Intelbras;não especificada;
+CD / Logística / Compras 1 Tarefa Quinzenal;em 15 dias;Fatima Oliveira;Mayra Pena;10.04.01.01. CD / Logística / Compras Intelbras;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de cadastro de produtos Intelbras;em 10 hora;Fatima Oliveira;Mayra Pena;10.04.01.01. CD / Logística / Compras Intelbras;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Encomenda Intelbras;em 10 hora;Fatima Oliveira;Mayra Pena;10.04.01.01. CD / Logística / Compras Intelbras;não especificada;
+Logística / Compras / Uso e Consumo / Solicitação - Venda para Fora do Estado;em 2 dias;Fatima Oliveira;Mayra Pena;10.04.01.01. CD / Logística / Compras Intelbras;não especificada;
+
+CD / Logística / Compras 2 - Tarefa Mensal;em 3 dias;Bruno Lima;Mayra Pena;10.04.01.02. CD / Logística / Compras Multimarcas;não especificada;
+CD / Logística / Compras 2 Tarefa Diária;em 1 dia;Bruno Lima;Mayra Pena;10.04.01.02. CD / Logística / Compras Multimarcas;não especificada;
+Logística / Compras / Uso e Consumo - Precificação de itens novos;em 1 dia;Mayra Pena;Bruno Lima;10.04.01.02. CD / Logística / Compras Multimarcas;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Correção de NCM;em 30 minutos;Bruno Lima;Mayra Pena;10.04.01.02. CD / Logística / Compras Multimarcas;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Desconto;em 1 hora;Bruno Lima;Mayra Pena;10.04.01.02. CD / Logística / Compras Multimarcas;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Encomenda Multimarcas;em 10 hora;Bruno Lima;Mayra Pena;10.04.01.02. CD / Logística / Compras Multimarcas;não especificada;
+
+CD / Logística / Compras 3 - Tarefas Diárias;em 1 dia;Ana Beatriz Rebouças;Mayra Pena;10.04.01.03. CD / Logística / Uso e Consumo;não especificada;
+Cotação Notebook;Não;Ana Beatriz Rebouças;Mayra Pena;10.04.01.03. CD / Logística / Uso e Consumo;não especificada;
+Cotação VMC - Campanha xxxx N° xxx;Não;Ana Beatriz Rebouças;Desligado - Vanessa Nunes;10.04.01.03. CD / Logística / Uso e Consumo;não especificada;
+Logística / Compras / Uso e Consumo - Solicitação de Compras (Patrimônio);em 50 hora;Ana Beatriz Rebouças;Mayra Pena;10.04.01.03. CD / Logística / Uso e Consumo;não especificada;
+
+Deslocamento Mayra;Não;Mayra Pena;Mayra Pena;09.03.00.04. Inter / Financeiro X Logística;não especificada;
+Financeiro / Tesouraria - Envio de Malotes;em 3 dias;Silvia Carvalho;Mayra Pena;09.03.00.04. Inter / Financeiro X Logística;não especificada;
+
+Envio dos romaneios de todos os pedidos entregues pelas empresas Terceirizadas;Não;Imila Souza Gerente Cabo Frio;Luis Carlos Marques Berriel;04.00.02. Logística / Projetos;não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;17.01.01.01. Home Office / Comercial / Distribuição / Patrícia Moreno;não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Daily Scrum);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.01. Bonsucesso / Comercial / Distribuição / Carla Duarte;não especificada;
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.01. Bonsucesso / Comercial / Distribuição / Carla Duarte;não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Daily Scrum);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.02. Bonsucesso / Comercial / Distribuição / Izabel Tavares;não especificada;
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.02. Bonsucesso / Comercial / Distribuição / Izabel Tavares;não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Daily Scrum);Não;Desligado - Michel Gonçalves;Barbara Cristina - Gerente Bonsucesso;11.01.01.05. Bonsucesso / Comercial / Distribuição / Erika Rosane Martins Barbosa;não especificada;
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.05. Bonsucesso / Comercial / Distribuição / Erika Rosane Martins Barbosa;não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Daily Scrum);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.03. Bonsucesso / Comercial / Distribuição / Beatriz Vilela;não especificada;
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;11.01.01.03. Bonsucesso / Comercial / Distribuição / Beatriz Vilela;não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Daily Scrum);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;;não especificada;
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing);Não;Barbara Cristina - Gerente Bonsucesso;Barbara Cristina - Gerente Bonsucesso;;não especificada;
+
+Comercial / Vendas - Feedback Mensal Consultores;Não;Desligado - Michel Gonçalves;Luan Lima Gerente Centro;14.01.01.01. Centro / Comercial / Vendas / Laura Bernardo;não especificada;
+Comercial / Vendas - Feedback Semanal Consultores;Não;Desligado -Fernanda Martins;Desligado - Michel Gonçalves;14.01.01.01. Centro / Comercial / Vendas / Laura Bernardo;não especificada;
+Comercial / Vendas - Feedback Semanal Consultores;Não;Desligado -Fernanda Martins;Luan Lima Gerente Centro;14.01.01.01. Centro / Comercial / Vendas / Laura Bernardo;não especificada;
+
+Comercial / Vendas - Feedback Mensal Consultores;Não;Desligado - Michel Gonçalves;Luan Lima Gerente Centro;14.01.01.09. Centro / Comercial / Distribuição / Janaína Valeriano (DESATIVAR);não especificada;
+
+Comercial / Vendas - Tarefa Diária Consultores (Daily Scrum);Não;Desligado - Michel Gonçalves;Michelle Domingues Gerente Taquara;15.01.01.08. Taquara / Comercial / Distribuição / Bárbara Cristina (DESATIVAR);não especificada;
+Comercial / Vendas - Tarefa Diária Consultores (Timeboxing) - Bárbara;Não;Michelle Domingues Gerente Taquara;Michelle Domingues Gerente Taquara;15.01.01.08. Taquara / Comercial / Distribuição / Bárbara Cristina (DESATIVAR);não especificada;
+Daily Scrum - Bárbara;Não;Michelle Domingues Gerente Taquara;Michelle Domingues Gerente Taquara;15.01.01.08. Taquara / Comercial / Distribuição / Bárbara Cristina (DESATIVAR);não especificada;

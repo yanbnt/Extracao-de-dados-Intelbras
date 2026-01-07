@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "assist.intelbras RMA Helper",
+  "version": "1.1",
+  "description": "Extensão para consultar documentações de produtos da Intelbras para auxiliar os RMAs",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://assist.intelbras.com.br/*",
+    "https://intelbras.softexpert.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

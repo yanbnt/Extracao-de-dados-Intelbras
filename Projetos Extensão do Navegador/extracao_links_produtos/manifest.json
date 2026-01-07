@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Extracao Intelbras Produtos",
+  "description": "Navega por todas as páginas de produtos da Intelbras e gera um arquivo .txt com o link de todos os produtos.",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "downloads"
+  ],
+  "host_permissions": [
+    "https://www.intelbras.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extrair produtos Intelbras"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.intelbras.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Links de PDFs</title>
+  <style>
+    :root {
+      --color-bg: #f3f4f6;
+      --color-surface: #ffffff;
+      --color-surface-muted: #f9fafb;
+      --color-text-primary: #111827;
+      --color-text-secondary: #6b7280;
+      --color-primary: #16a34a;
+      --color-primary-dark: #15803d;
+      --color-primary-soft: #dcfce7;
+      --color-accent: #0ea5e9;
+      --color-border-subtle: #e5e7eb;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.04);
+      --shadow-md: 0 10px 15px rgba(15, 23, 42, 0.08), 0 4px 6px rgba(15, 23, 42, 0.06);
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      width: 380px;
+      background: var(--color-bg);
+      color: var(--color-text-primary);
+    }
+
+    .app-shell {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .app-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px 8px;
+      background: var(--color-surface);
+      box-shadow: var(--shadow-sm);
+      border-bottom: 1px solid var(--color-border-subtle);
+    }
+
+    .app-logo-circle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.03em;
+      box-shadow: 0 4px 8px rgba(16, 185, 129, 0.4);
+    }
+
+    .app-brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .app-title {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .app-subtitle {
+      font-size: 11px;
+      color: var(--color-text-secondary);
+    }
+
+    .app-main {
+      padding: 8px 10px 10px;
+    }
+
+    .card {
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      padding: 10px 12px 12px;
+      border: 1px solid rgba(15, 23, 42, 0.04);
+    }
+
+    h1 {
+      font-size: 14px;
+      margin: 0 0 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    h1::before {
+      content: '';
+      width: 4px;
+      height: 14px;
+      border-radius: 999px;
+      background: var(--color-primary);
+    }
+
+    #status {
+      font-size: 12px;
+      margin-bottom: 2px;
+      color: #16a34a;
+    }
+
+    #info-json {
+      font-size: 11px;
+      margin-bottom: 2px;
+      color: #16a34a;
+    }
+
+    #info-produtos {
+      font-size: 11px;
+      margin-bottom: 6px;
+      color: var(--color-text-secondary);
+    }
+
+    #filtro-wrapper {
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+
+    #filtro-wrapper label {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--color-text-secondary);
+      font-weight: 500;
+    }
+
+    #filtro-nome {
+      width: 100%;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border-subtle);
+      background: var(--color-surface-muted);
+      color: var(--color-text-primary);
+      font-size: 12px;
+      padding: 6px 8px;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    #filtro-nome:focus {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.18);
+      background: #ffffff;
+    }
+
+    #filtro-tipo {
+      margin-top: 4px;
+      font-size: 11px;
+      color: var(--color-text-secondary);
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    #filtro-tipo label {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      cursor: pointer;
+      padding: 2px 6px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
+
+    #filtro-tipo input[type="radio"] {
+      margin: 0;
+    }
+
+    #filtro-tipo label:hover {
+      background: var(--color-surface-muted);
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      max-height: 260px;
+      overflow-y: auto;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border-subtle);
+      background: var(--color-surface-muted);
+    }
+
+    li {
+      margin: 0;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 6px 8px;
+    }
+
+    li:last-child {
+      border-bottom: none;
+      border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+    }
+
+    .linha-link {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+
+    .linha-link input[type="checkbox"] {
+      margin-top: 2px;
+    }
+
+    a {
+      color: var(--color-primary-dark);
+      text-decoration: none;
+      word-break: break-all;
+      font-size: 12px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .texto-link {
+      font-weight: 500;
+      display: block;
+      margin-bottom: 1px;
+    }
+
+    .url-pequena {
+      font-size: 11px;
+      color: var(--color-text-secondary);
+    }
+
+    .botoes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .botoes button {
+      flex: 1 1 auto;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      background: var(--color-surface-muted);
+      color: var(--color-text-primary);
+      font-size: 12px;
+      cursor: pointer;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.08s ease, transform 0.05s ease;
+    }
+
+    .botoes button:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .botoes svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
+    }
+
+    /* Cores específicas por ação */
+
+    #atualizar {
+      background: var(--color-primary);
+      border-color: var(--color-primary);
+      color: #ffffff;
+    }
+
+    #atualizar:hover {
+      background: var(--color-primary-dark);
+      border-color: var(--color-primary-dark);
+    }
+
+    #baixar-selecionados {
+      background: #22c55e;
+      border-color: #22c55e;
+      color: #052e16;
+    }
+
+    #baixar-selecionados:hover {
+      background: #16a34a;
+      border-color: #16a34a;
+    }
+
+    #baixar-todos {
+      background: #16a34a;
+      border-color: #15803d;
+      color: #f0fdf4;
+    }
+
+    #baixar-todos:hover {
+      background: #15803d;
+      border-color: #166534;
+    }
+
+    #baixar-lista-fechar {
+      background: #0369a1;
+      border-color: #0369a1;
+      color: #e0f2fe;
+    }
+
+    #baixar-lista-fechar:hover {
+      background: #075985;
+      border-color: #075985;
+    }
+
+    #remover-selecionados {
+      background: #b91c1c;
+      border-color: #b91c1c;
+      color: #fef2f2;
+    }
+
+    #remover-selecionados:hover {
+      background: #991b1b;
+      border-color: #991b1b;
+    }
+
+    #limpar-lista {
+      background: #6b7280;
+      border-color: #6b7280;
+      color: #f9fafb;
+    }
+
+    #limpar-lista:hover {
+      background: #4b5563;
+      border-color: #4b5563;
+    }
+
+    #selecionar-filtrados {
+      background: #0ea5e9;
+      border-color: #0ea5e9;
+      color: #ecfeff;
+    }
+
+    #selecionar-filtrados:hover {
+      background: #0284c7;
+      border-color: #0284c7;
+    }
+
+    #progresso-wrap {
+      margin: 4px 0 6px;
+      display: none;
+    }
+
+    #progresso-label {
+      font-size: 11px;
+      color: var(--color-text-secondary);
+      margin-bottom: 2px;
+    }
+
+    #progresso-barra-externa {
+      width: 100%;
+      height: 5px;
+      border-radius: 999px;
+      background: var(--color-surface-muted);
+      overflow: hidden;
+      border: 1px solid var(--color-border-subtle);
+    }
+
+    #progresso-barra {
+      width: 0%;
+      height: 100%;
+      background: linear-gradient(90deg, #22c55e, #4ade80);
+      transition: width 0.2s ease-out;
+    }
+
+    /* Blocos auxiliares */
+
+    #sem-arquivos-wrap {
+      margin-top: 8px;
+      font-size: 11px;
+      color: #854d0e;
+      display: none;
+    }
+
+    #sem-arquivos-wrap textarea {
+      width: 100%;
+      resize: vertical;
+      border-radius: var(--radius-sm);
+      border: 1px solid #fed7aa;
+      background: #fffbeb;
+      color: #78350f;
+      font-size: 11px;
+      padding: 4px 6px;
+    }
+
+    #duplicados-wrap {
+      margin-top: 8px;
+      font-size: 11px;
+      color: #854d0e;
+      display: none;
+    }
+
+    #duplicados-wrap textarea {
+      width: 100%;
+      resize: vertical;
+      border-radius: var(--radius-sm);
+      border: 1px solid #facc15;
+      background: #fefce8;
+      color: #854d0e;
+      font-size: 11px;
+      padding: 4px 6px;
+    }
+
+    .lista-links-wrapper {
+      margin-top: 8px;
+      font-size: 12px;
+    }
+
+    .lista-links-wrapper textarea {
+      width: 100%;
+      resize: vertical;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border-subtle);
+      background: var(--color-surface-muted);
+      color: var(--color-text-primary);
+      font-size: 12px;
+      padding: 6px 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-bar">
+      <div class="app-logo-circle">LM</div>
+      <div class="app-brand-text">
+        <div class="app-title">Lab Make</div>
+        <div class="app-subtitle">Coletor de arquivos Intelbras</div>
+      </div>
+    </header>
+    <main class="app-main">
+      <section class="card">
+        <h1>Links de arquivos na página</h1>
+        <div id="status">Procurando PDFs na aba atual...</div>
+        <div id="info-json"></div>
+        <div id="info-produtos">
+          Produtos na lista: 0
+        </div>
+        <div id="progresso-wrap">
+          <div id="progresso-label"></div>
+          <div id="progresso-barra-externa">
+            <div id="progresso-barra"></div>
+          </div>
+        </div>
+        <div id="filtro-wrapper">
+          <label for="filtro-nome">Filtrar pelo nome do arquivo:</label>
+          <input id="filtro-nome" type="text" placeholder="Digite parte do nome do arquivo" />
+          <div id="filtro-tipo">
+            <span>Mostrar:</span>
+            <label>
+              <input type="radio" name="tipo-arquivo" value="todos" checked />
+              <span>Todos</span>
+            </label>
+            <label>
+              <input type="radio" name="tipo-arquivo" value="pdf" />
+              <span>PDFs</span>
+            </label>
+            <label>
+              <input type="radio" name="tipo-arquivo" value="imagem" />
+              <span>Imagens</span>
+            </label>
+            <label>
+              <input type="radio" name="tipo-arquivo" value="outros" />
+              <span>Outros</span>
+            </label>
+          </div>
+        </div>
+        <ul id="lista-pdfs"></ul>
+        <div class="lista-links-wrapper">
+          <div style="margin-bottom: 4px; color: var(--color-text-secondary);">Ou cole uma lista de links (um por linha):</div>
+          <textarea id="lista-links-manual" rows="4"></textarea>
+        </div>
+        <div id="sem-arquivos-wrap">
+          <div style="margin-bottom: 4px;">Produtos/páginas sem nenhum arquivo encontrado nesta varredura:</div>
+          <textarea id="lista-sem-arquivos" rows="3" readonly></textarea>
+        </div>
+        <div id="duplicados-wrap">
+          <div style="margin-bottom: 4px; font-weight: 600;">Códigos de referência que se repetem em mais de um produto (codigo;produto;url):</div>
+          <textarea id="lista-duplicados" rows="3" readonly></textarea>
+        </div>
+        <div class="botoes">
+    <button id="atualizar">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 4v6h6V8H7.83A5.96 5.96 0 0 1 12 6a6 6 0 0 1 5.91 5H20A8 8 0 0 0 4 6.17V4H4zm16 10v-6h-6v2h2.17A5.96 5.96 0 0 1 12 18a6 6 0 0 1-5.91-5H4a8 8 0 0 0 15.83 2H20z" />
+      </svg>
+      <span class="botao-label">Procurar novamente</span>
+    </button>
+    <button id="baixar-selecionados">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 20h14v-2H5v2zm7-3 5-6h-3V4h-4v7H7l5 6z" />
+      </svg>
+      <span class="botao-label">Baixar selecionados</span>
+    </button>
+    <button id="baixar-todos">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 20h14v-2H5v2zm7-3 5-6h-3V4h-4v7H7l5 6zm7-9V6h-2v2h2zM7 8V6H5v2h2z" />
+      </svg>
+      <span class="botao-label">Baixar tudo</span>
+    </button>
+    <button id="baixar-lista-fechar">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6h16v2H4V6zm0 4h10v2H4v-2zm0 4h7v2H4v-2zm13 1 3-3-1.41-1.41L17 12.17l-1.59-1.58L14 12l3 3z" />
+      </svg>
+      <span class="botao-label">Processar lista de páginas</span>
+    </button>
+    <button id="selecionar-filtrados">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M9 11l-3 3 1.5 1.5L9 14.5l7-7L14.5 6 9 11zM5 5h4V3H5c-1.1 0-2 .9-2 2v4h2V5zm0 10H3v4c0 1.1.9 2 2 2h4v-2H5v-4zm14-6h-2v4h2V9zm-4 10v2h4c1.1 0 2-.9 2-2v-4h-2v4h-4z" />
+      </svg>
+      <span class="botao-label">Selecionar filtrados/todos</span>
+    </button>
+    <button id="remover-selecionados">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M9 3h6l1 2h4v2H4V5h4l1-2zm1 6h2v8h-2V9zm4 0h2v8h-2V9zM6 9h2v8H6V9z" />
+      </svg>
+      <span class="botao-label">Remover selecionados</span>
+    </button>
+    <button id="limpar-lista">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 5h14v2H5V5zm2 4h10v2H7V9zm-2 4h14v2H5v-2z" />
+      </svg>
+      <span class="botao-label">Limpar lista</span>
+    </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

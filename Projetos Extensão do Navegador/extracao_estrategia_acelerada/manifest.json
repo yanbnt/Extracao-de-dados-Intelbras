@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Encontrar PDFs na Página",
+  "description": "Localiza automaticamente links de download de arquivos PDF na página atual e os lista em um popup.",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "downloads",
+    "storage",
+    "browsingData"
+  ],
+  "host_permissions": [
+    "https://www.intelbras.com/*"
+  ],
+  "action": {
+    "default_title": "Listar PDFs",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

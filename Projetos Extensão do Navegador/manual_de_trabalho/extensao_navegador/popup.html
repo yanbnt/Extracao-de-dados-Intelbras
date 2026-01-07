@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RMA MAKE Automation</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <body>
+    <div class="header">
+      <span class="logo-text">RMA MAKE</span>
+      <img src="./Intelbras-logo-3-1.png" alt="Intelbras Logo" class="intelbras-logo">
+    </div>
+
+    <div class="main-content">
+      <div class="controls">
+        <h2>Busca de Produtos</h2>
+        <input type="text" id="productName" placeholder="Nome do produto">
+        <button id="startButton">1. Iniciar Busca de Produtos</button>
+      </div>
+
+      <div id="resultsContainer">
+        <!-- A tabela de produtos ou resultados da busca web será injetada aqui -->
+      </div>
+
+      <div class="footer-controls">
+          <div class="category-select-wrapper">
+              <label for="categorySelect">Categoria do Documento:</label>
+              <select id="categorySelect">
+                  <option value="Manuais de Trabalho" selected>Manuais de Trabalho</option>
+                  <option value="Aplicativos">Aplicativos</option>
+                  <option value="Árvore de Falhas">Árvore de Falhas</option>
+                  <option value="Assistentes de Configuração">Assistentes de Configuração</option>
+                  <option value="Boletins Técnicos">Boletins Técnicos</option>
+                  <option value="Compatibilidade">Compatibilidade</option>
+                  <option value="Descritivo técnico">Descritivo técnico</option>
+                  <option value="Dicas de Callcenter">Dicas de Callcenter</option>
+                  <option value="Diversos">Diversos</option>
+                  <option value="Documentos PeD">Documentos PeD</option>
+                  <option value="Driver">Driver</option>
+                  <option value="Especificações Técnicas">Especificações Técnicas</option>
+                  <option value="Esquema Elétrico">Esquema Elétrico</option>
+                  <option value="Facilidades">Facilidades</option>
+                  <option value="Firmware">Firmware</option>
+                  <option value="Imagens">Imagens</option>
+                  <option value="Instaladores">Instaladores</option>
+                  <option value="Lista de Acessórios">Lista de Acessórios</option>
+                  <option value="Manuais do Usuário">Manuais do Usuário</option>
+                  <option value="Plano de Pós Venda">Plano de Pós Venda</option>
+                  <option value="Programador">Programador</option>
+                  <option value="Requisitos">Requisitos</option>
+                  <option value="Simuladores">Simuladores</option>
+                  <option value="Tutoriais">Tutoriais</option>
+                  <option value="Vídeos">Vídeos</option>
+              </select>
+          </div>
+          <div class="button-group">
+              <button id="findManualButton">2. Buscar Documento</button>
+              <button id="clearButton">Limpar</button>
+          </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

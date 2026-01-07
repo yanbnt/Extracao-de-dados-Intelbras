@@ -1,0 +1,152 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #e8f5e9; /* Verde claro */
+  color: #333;
+  min-width: 480px;
+}
+
+.header {
+  background-color: #388e3c; /* Verde mais escuro */
+  color: white;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.intelbras-logo {
+  height: 20px;
+  filter: brightness(0) invert(1); /* Deixa o logo branco */
+}
+
+.main-content {
+  padding: 15px;
+}
+
+.controls h2 {
+  margin-top: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #1b5e20; /* Verde bem escuro */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #a5d6a7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#resultsContainer {
+  max-height: 280px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  background-color: #f1f8e9;
+  border: 1px solid #dcedc8;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.footer-controls {
+  padding-top: 15px;
+  border-top: 1px solid #c8e6c9;
+  display: none; /* Escondido por padrão */
+}
+.footer-controls.active {
+  display: block;
+}
+
+.category-select-wrapper {
+  margin-bottom: 10px;
+}
+.category-select-wrapper label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#categorySelect {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #a5d6a7;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+#startButton { background-color: #007bff; }
+#startButton:hover { background-color: #0069d9; }
+
+#findManualButton { background-color: #28a745; }
+#findManualButton:hover { background-color: #218838; }
+
+#clearButton { background-color: #dc3545; }
+#clearButton:hover { background-color: #c82333; }
+
+/* Estilos da tabela e resultados da busca */
+#resultsContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+#resultsContainer th, #resultsContainer td {
+  border: 1px solid #c8e6c9;
+  padding: 6px;
+  text-align: left;
+}
+#resultsContainer th { background-color: #dcedc8; }
+#resultsContainer tr:hover { background-color: #e8f5e9; cursor: pointer; }
+#resultsContainer tr.selected { background-color: #a5d6a7 !important; font-weight: bold; }
+
+#resultsContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+#resultsContainer li {
+  padding: 8px;
+  border-bottom: 1px solid #dcedc8;
+}
+#resultsContainer li:last-child {
+  border-bottom: none;
+}
+#resultsContainer a {
+  font-weight: 600;
+  color: #1b5e20;
+  text-decoration: none;
+}
+#resultsContainer a:hover {
+  text-decoration: underline;
+}
+#resultsContainer p {
+  font-size: 12px;
+  margin: 4px 0 0 0;
+  color: #555;
+}
