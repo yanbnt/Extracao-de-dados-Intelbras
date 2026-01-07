@@ -1,6 +1,6 @@
 # Extensão: Extração de nobreaks Intelbras
 
-Esta extensão de navegador (Chrome/Edge, Manifest V3) navega pela listagem de nobreaks da Intelbras e gera um arquivo `.txt` com o nome de todos os produtos encontrados em todas as páginas.
+Esta extensão de navegador (Chrome/Edge, Manifest V3) navega pela listagem de protudos da Intelbras e gera um arquivo `.txt` com o nome de todos os produtos encontrados em todas as páginas.
 
 ## Como instalar
 
@@ -27,3 +27,4 @@ Se a paginação do site mudar, talvez seja necessário ajustar os seletores no 
 
 - O arquivo `.txt` será salvo na pasta de downloads padrão do navegador.
 - Os nomes são deduplicados antes de gerar o arquivo.
+
